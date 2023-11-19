@@ -1,14 +1,23 @@
+## Topics tested
+- Import existing infrastructure into Terraform configuration.
+- Build and reference Terraform modules.
+- Add a remote backend to the Terraform configuration.
+- Use and implement a module from the Terraform Registry.
+- Re-provision, destroy and update infrastructure.
+- Test connectivity between the resources created.
+
+
 ### Initialize terraform
 ```
 terraform init
 ```
 
-### import the running server into the module
+### Import the running server into the module
 ```
 terraform import module.instance_module.google_compute_instance.<server-name> <Instance-id>
 ```
 
-### applying the config file
+### Applying the config file
 ```
 terraform apply
 ```
